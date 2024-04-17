@@ -27,3 +27,16 @@
 `<address>` é pra por um endereço (nao é endereço de link, é de lugar mesmo)
 
 `<!-- anotação -->` serve para por anotações para si mesmo e que não vao aparecer no site
+
+`<ol>`
+`<li> bla bla bla </li>` cria uma lista ordenada por numeros
+`</ol>`
+
+`<ul>`
+`<li><p> bla bla bla </p></li>` cria uma lista com bolinha do lado
+`</ul>`
+
+`<dl>`                                 cria uma lista tipo assim:
+`<dt> bla bla </dt>` --------------> pc gamer
+`<dd> bla bla bla </dd>` ---------->   intel core i3 2100
+`</dl>`
