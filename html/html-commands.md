@@ -40,3 +40,5 @@
 `<dt> bla bla </dt>` --------------> pc gamer
 `<dd> bla bla bla </dd>` ---------->   intel core i3 2100
 `</dl>`
+
+`<a href="https://js.tech.com">JS Tech</a>` cria um link clicavel
