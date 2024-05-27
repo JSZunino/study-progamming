@@ -1,16 +1,15 @@
 `p {`
-    `font-size: 60px;`
-    `font-family: monospace;`
-    `font-style: italic;`
-    `color: purple;`
-    `text-transform: uppercase;`
-    `background-color: yellow;`
-    `border: 2px dashed red;`
-    `width: 50%;`
-    `padding: 16px;`
-    `margin: 0;`
+`font-size: 60px;`
+`font-family: monospace;`
+`font-style: italic;`
+`color: purple;`
+`text-transform: uppercase;`
+`background-color: yellow;`
+`border: 2px dashed red;`
+`width: 50%;`
+`padding: 16px;`
+`margin: 0;`
 `}`
-
 
 o "p" é oque estou mexendo e entre os {} é oque estou alterando naquele item
 
