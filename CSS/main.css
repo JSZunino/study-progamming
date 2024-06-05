@@ -313,3 +313,18 @@ button span {
 .coolinput input[type="text"].input:focus {
   outline: none;
 }
+
+.backhead {
+  background-image: url('img/trustprogramer.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.h2color {
+  color: white;
+}
+
+main {
+  background-color: #555;
+}
