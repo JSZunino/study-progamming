@@ -52,7 +52,11 @@ separa a parte entre eles em seções
 `</article>`
 
 `<nav>`
-cria uma barra de navegação
+    `<ul>`
+    `<li><a href="#coiso">Coiso</a></li>`
+    `<li><a href="#coiso2">Coiso</a></li>`              cria uma barra de navegação
+    `<li><a href="#coiso3">Coiso</a></li>`
+    `</ul>`              
 `</nav>`
 
 `<a href="html5.png" download> bla bla </a>` cria um link de download
