@@ -1,3 +1,6 @@
+Comandos]---------------------------------------------------------
+---------------------------------------------------------
+
 `window.alert('Lorem')` alerta na tela
 `window.confirm('Lorem')` alerta com botão pra confirmar
 `window.prompt('Lorem')` alerta com espaço de digitação
@@ -19,10 +22,13 @@
 `document.write(`seu nome em maiusculo é ${nome.toUpperCase()}`)`  deixa oque vai escrever em maiusculo
 `${nome.toLowerCase}`  deixa oque vai escrever em minusculo
 
-`n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})` faz a var n1 ficar quem nem o real, tip: R$1.545,80
+`n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})` faz a var n1 ficar quem nem o real, tipo: R$1.545,80
                                                           `USD`  fica em dolar
                                                           `EUR`  fica em euro
 `n1.toFixed(2).replace('.', ',')`  o n1 é a var, o (2) é quantos 0 depois da virgula e o replace é trocar ponto por virgula e vice versa
+
+---------------------------------------------------------
+Identificadores]---------------------------------------------------------
 ---------------------------------------------------------
 
 Identificadores das variaveis: var `nome` = tekudaodamassa
@@ -40,6 +46,8 @@ Não podem conter espaços
 Não podem ser palavras reservadas
 
 ---------------------------------------------------------
+Data Types]---------------------------------------------------------
+---------------------------------------------------------
 
 Data Types: var nome = `true`
 
@@ -53,3 +61,20 @@ String
 "Google" 'JavaScript' `Maria`
 
 ---------------------------------------------------------
+Operadores]---------------------------------------------------------
+---------------------------------------------------------
+
+Aritméticos:                         Exemplos/Salvar Resultado:          Simplificando:   Tem que ser a var + ela msm
+
+5 + 2 = 7   mais                     var n1 = 5 + 2                      var n = 3
+5 - 2 = 7   menos                    var n2 = 5 - 2                      n = n + 4      n += 4
+5 * 2 = 7   vezes                    var n3 = n1 + n2                    n = n - 5      n -= 5
+5 / 2 = 7   dividido                                                     n = n * 4      n *= 4
+5 % 2 = 7   resto da divisão
+5 ** 2 = 25 potencia 5²                                                  n = n + 1      n++
+Ordem:                                                                   n = n - 1      n--
+
+()
+**
+* / %
++ -
