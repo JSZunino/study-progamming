@@ -64,6 +64,8 @@ String
 Operadores]---------------------------------------------------------
 ---------------------------------------------------------
 
+Ordem: Aritméticos, Relacionais, Lógicos
+
 Aritméticos:                         Exemplos/Salvar Resultado:          Simplificando:   Tem que ser a var + ela msm
 
 5 + 2 = 7   mais                     var n1 = 5 + 2                      var n = 3
@@ -78,3 +80,35 @@ Ordem:                                                                   n = n -
 **
 * / %
 + -
+
+Relacionais:         Resultado sempre será "true" ou "false"  Tipo: Boolean
+
+5 > 2     true           5 é maior que 2? sim, então é true
+7 < 4     false          7 é menor que 4? não, então é false
+8 >= 8    true           8 é maior ou igual a 8? sim, então é true
+9 <= 7    false          9 é menor ou igual a 7? não, então é false
+5 == 5    true           5 é igual a 5? sim, então é true
+4 != 4    false          4 é diferente de 4? não, então é false
+
+== mesmo valor             5 == '5'
+=== mesmo valor e tipo     5 === 5
+
+Lógicos:
+
+Ordem: !, &&, ||
+
+!  negação     !true = false            resultado é o oposto. EX: true = false, false = true
+
+&& conjunção  true && true = true  
+              true && false = false     precisa dos 2 lados true para dar true, senão vai dar false
+              false && false = false
+
+|| disjunção  true || true = true
+              true || false = true      precisa de pelo menos um true para dar true, so vai dar false se tiver só false
+              false || false = false
+
+Ternário:
+
+teste ? true : false                                              média é uma variavel
+
+média >= 7.0 ? "aprovado" : "reprovado"
