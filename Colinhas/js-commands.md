@@ -81,7 +81,7 @@ Ordem:                                                                   n = n -
 * / %
 + -
 
-Relacionais:         Resultado sempre será "true" ou "false"  Tipo: Boolean
+Relacionais:-------------------Resultado sempre será "true" ou "false"  Tipo: Boolean-------------------------------
 
 5 > 2     true           5 é maior que 2? sim, então é true
 7 < 4     false          7 é menor que 4? não, então é false
@@ -93,7 +93,7 @@ Relacionais:         Resultado sempre será "true" ou "false"  Tipo: Boolean
 == mesmo valor             5 == '5'
 === mesmo valor e tipo     5 === 5
 
-Lógicos:
+Lógicos:---------------------------------------------------------
 
 Ordem: !, &&, ||
 
@@ -107,8 +107,27 @@ Ordem: !, &&, ||
               true || false = true      precisa de pelo menos um true para dar true, so vai dar false se tiver só false
               false || false = false
 
-Ternário:
+Ternário:---------------------------------------------------------
 
 teste ? true : false                                              média é uma variavel
 
 média >= 7.0 ? "aprovado" : "reprovado"
+
+---------------------------------------------------------
+DOM]---------------------------------------------------------
+---------------------------------------------------------
+
+Selecionando:---------------------------------------------------------
+
+a tag que vou selecionar: h1   Qual vou selecionar: o 1 que aparece, se for o segundo eu troco o "0" por "1"         
+
+Tag: window.document.getElementsByTagName('h1')[0]            <h1>
+
+ID: window.document.getElementById('id')                      id="id"
+
+Nome: window.document.getElementByName('name')                name="name"
+
+Classe: window.document.getElementByClassName('class')        class="class"
+
+Seletor: window.document.querySelector('div#ID')              <div id="ID">
+                         querySelectorAll()
