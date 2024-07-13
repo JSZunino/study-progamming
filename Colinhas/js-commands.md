@@ -131,3 +131,30 @@ Classe: window.document.getElementByClassName('class')        class="class"
 
 Seletor: window.document.querySelector('div#ID')              <div id="ID">
                          querySelectorAll()
+
+Eventos:---------------------------------------------------------
+
+Mouse:
+                                                    A area geralmente é uma DIV
+onmouseenter   Entrou na area
+onmousemove    Se mexeu dentro da area
+onmousedown    Segurar o mouse dentro da area
+onmouseup      Soltar o mouse
+onclick        Clickar dentro da area
+onmouseout     Saiu da area
+
+Lista de todos os eventos: https://developer.mozilla.org/en-US/docs/Web/Events
+
+Funções:---------------------------------------------------------
+
+function ação(){        onde ta "ação" é meio que o id da function, ou seja você escolhe um nome
+                        entre os "()" fica os parametros, porem é opcional por-los, mas se não por tem que ter o () ainda
+}                       entre os "{}" fica oque a function vai executar, ou seja, o código/comando
+
+possivel erro: tente colocar o codigo aqui dentro->
+
+ document.addEventListener('DOMContentLoaded', (event) => {
+   
+           código aqui
+
+        });
