@@ -1,24 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pet Passeio</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <div class="header">
-        <img src="img/logo pet.png" loading="lazy" width="154" height="105" class="logo">
-        <form action="/search" method="get" class="search-form">
-          <input
-            type="text"
-            name="q"
-            placeholder="Digite sua pesquisa..."
-            class="search-input"
-            required
-          />
-          <button type="submit" class="search-button">Pesquisar</button>
-        </form>
-        </div>
-  </body>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DETRAN</title>
+  <script src="jav.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Sistema de Multas</h1>
+  Velocidade do carro: <input type="number" id="txtvel"> Km/h
+  <input type="button" value="Verificar" onclick="calcular()">
+  <div id="res">
+    
+  </div>
+</body>
 </html>

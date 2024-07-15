@@ -158,3 +158,45 @@ possivel erro: tente colocar o codigo aqui dentro->
            código aqui
 
         });
+
+---------------------------------------------------------
+Condições:---------------------------------------------------------
+---------------------------------------------------------
+
+
+Tipos de condição:---------------------------------------------------------
+
+---------------------------------------------------------
+if (condição) {
+
+}
+---------------------------------------------------------
+if (condição) {
+
+} else {
+
+}
+---------------------------------------------------------
+
+Exemplo de uso:
+
+var vel = 25
+console.log(`A velocidade do seu carro é ${vel}Km/h`)
+if (vel > 60) {
+    console.log('Você ultrapassou a velocidade permitida. MULTADO!')
+}
+console.log('Diriga sempre usando o cinto de segurança!')
+
+Explicação: Se a var "vel" for maior que 60 você será multado
+
+---------------------------------------------------------
+
+var pais = 'Brasil'
+console.log(`Vivendo em ${pais}`)
+if (pais != 'Brasil') {
+    console.log('Você é estrangeiro')
+} else {
+    console.log('Você é Brasileiro')
+}
+
+Explicação: Se for diferente de Brasil você será estrangeiro e se não, você será brasileiro
