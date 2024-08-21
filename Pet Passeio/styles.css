@@ -8,18 +8,6 @@ body {
   background-color: #f0f0f0;
   width: 100%;
   padding: 10px 0;
-  text-align: center;
-  position: fixed;
-  top: 100;
-  left: 0;
-  z-index: 1000;
-}
-
-.search-form {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: -60px;
 }
 
 .search-input {
@@ -44,4 +32,40 @@ body {
 .logo {
   max-width: 100px;
   height: auto;
+}
+
+.cell {
+  height: 70px;
+}
+
+.bar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.cell:hover {
+  color: #ffffff;
+}
+
+.cell:hover img {
+  filter: hue-rotate(180deg);
+}
+
+.phone-link {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  display: inline-flex;
+  align-items: center;
+  transition: color 0.3s ease;
+}
+
+.phone-link i {
+  font-size: 32px;
+  margin-right: 8px;
+}
+
+.phone-link:hover {
+  color: #808080;
 }
